@@ -1,0 +1,25 @@
+<INARY>
+    <SourceName>Sulin</SourceName>
+    <Version>0.1</Version>
+    <Description xml:lang="tr">Sulin 2018 Core Deposu</Description>
+    <Description xml:lang="en">Sulin 2018 Core Repository</Description>
+    <Description xml:lang="es">Sulin 2018 Core Repositorio</Description>
+    <Description xml:lang="nl">Sulin 2018 Core Opslagplaats</Description>
+    <Type>Core</Type>
+    <BinaryName>Sulin</BinaryName>
+    <Obsoletes>
+           <!--glibc-32bit merge in glibc-->
+           <Package>glibc-32bit</Package>
+           <!-- separeted, replaced packages-->
+           <Package>kdgantt2</Package>
+           <Package>gpgmepp</Package>
+           <Package>kde-baseapps</Package>
+           <Package>prison-qt5</Package>
+           <Package>xorg-video-modesetting</Package>
+           <!--for yali -->
+           <Package>busybox-mkinitcpio</Package>
+           <Package>mkinitcpio</Package>
+           <Package>Calamares</Package>
+           <Package>calamares-theme-sulin</Package>
+      </Obsoletes>
+</INARY>
